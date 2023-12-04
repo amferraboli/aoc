@@ -1,4 +1,4 @@
-File.read("2022/input-day1.txt")
+File.read("2022/data/input-day1.txt")
 |> elem(1)
 |> String.split("\n\n")
 |> Enum.map(

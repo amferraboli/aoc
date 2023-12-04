@@ -32,7 +32,7 @@ defmodule RockPaperScissors do
   end
 end
 
-File.read("input-day2.txt")
+File.read("data/input-day2.txt")
 |> elem(1)
 |> String.split("\n")
 |> Enum.map(&RockPaperScissors.calculate_result/1)

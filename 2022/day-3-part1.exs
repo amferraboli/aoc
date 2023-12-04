@@ -1,4 +1,4 @@
-File.read("input-day-3.txt")
+File.read("data/input-day-3.txt")
 |> elem(1)
 |> String.split("\n")
 |> Enum.map(fn x -> String.length(x) |> Integer.floor_div(2) end)

@@ -27,7 +27,7 @@ defmodule RockPaperScissors do
   def calculate_result("C Z"), do: value_of_result("Win") + value_of_our_move("A")
 end
 
-File.read("input-day2.txt")
+File.read("data/input-day2.txt")
 |> elem(1)
 |> String.split("\n")
 |> Enum.map(&RockPaperScissors.calculate_result/1)
