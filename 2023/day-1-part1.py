@@ -1,6 +1,6 @@
 total_sum = 0
 
-with open("2023/data/day-1-1.txt", "r") as file:
+with open("2023/data/day-1-part1.txt", "r") as file:
     for line in file:
         filtered_digits = [c for c in line if c.isdigit()]
         first_digit = filtered_digits[0]
